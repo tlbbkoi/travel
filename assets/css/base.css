@@ -1,0 +1,38 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #ccc;
+    --primary-color: #14b9d5;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.background-orange{
+    background: linear-gradient(to right, #ffd205 0%, #ff9b05 100%);
+}
+
+.background-purple-rose{
+    background: linear-gradient(to right, #f76570 0%, #f78d65 100%);
+}
+
+.backgrounf-purple{
+    background: linear-gradient(to right, #ba71da 0%, #da717b 100%);     
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
